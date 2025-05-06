@@ -3,6 +3,7 @@ import FirstComponent from "./components/FirstComponent"
 import TemplateExpression from "./components/TemplateExpressions"
 import AnonymousFunction from "./components/AnonymousFunction"
 import './App.css'
+import Events from "./components/Events"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <FirstComponent/>
       <TemplateExpression />
       <AnonymousFunction />
+      <Events />
     </>
   )
 }
