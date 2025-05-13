@@ -7,12 +7,14 @@ import Events from "./components/Events"
 import Images from "./components/Images"
 import ChangeBackground from "./components/ChangeBackground"
 import ChangeValue from "./components/ChangeValue"
+import Conditional from "./components/Conditional"
+
 
 function App() {
 
   return (
     <>
-      <FirstComponent/>
+      {/* <FirstComponent/>
       <FirstComponent/>
       <FirstComponent/>
       <TemplateExpression />
@@ -20,7 +22,9 @@ function App() {
       <Events />
       <Images/>
       <ChangeBackground/>
-      <ChangeValue />
+      <ChangeValue /> */}
+
+      <Conditional />
     </>
   )
 }
