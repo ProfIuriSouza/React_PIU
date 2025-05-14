@@ -23,9 +23,9 @@ function Conditional(){
      )
  }
 
-// export default Conditional
+ export default Conditional
 
-//Opção 2 - Estrutura condicional reduzida
+// Opção 2 - Estrutura condicional reduzida
 
 // import Images from "./Images";
 // import FirstComponent from "./FirstComponent";

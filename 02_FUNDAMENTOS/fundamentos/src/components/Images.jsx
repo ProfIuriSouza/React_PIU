@@ -8,8 +8,8 @@ function Images (){
 
     return(
         <>
-        {/* opção 1 - imporante de public, podemos referencias como se estivesse em src. 
-        Obs.: Tag figure permite usar a opçaõ de legenda figcaption */}
+        {/* opção 1 - importando de public, podemos referenciar como se estivesse em src. 
+        Obs.: Tag figure permite usar a opção de legenda figcaption */}
         <figure>
             <img src="./bridge.jpg" alt="Imagem de Ponte" />
             <figcaption>Imagem de uma ponte</figcaption>
