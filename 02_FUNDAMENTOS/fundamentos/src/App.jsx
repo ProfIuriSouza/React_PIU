@@ -8,6 +8,7 @@ import Images from "./components/Images"
 import ChangeBackground from "./components/ChangeBackground"
 import ChangeValue from "./components/ChangeValue"
 import Conditional from "./components/Conditional"
+import Change from "./components/Change"
 
 
 function App() {
@@ -24,7 +25,9 @@ function App() {
       <ChangeBackground/>
       <ChangeValue /> */}
 
-      <Conditional />
+      {/* <Conditional /> */}
+      {/* <ChangeBackground/> */}
+      <Change />
     </>
   )
 }

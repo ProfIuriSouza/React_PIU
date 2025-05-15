@@ -23,7 +23,7 @@ function Conditional(){
      )
  }
 
-// export default Conditional
+ export default Conditional
 
 //Opção 2 - Estrutura condicional reduzida
 
@@ -45,7 +45,7 @@ function Conditional(){
 // export default Conditional
 
 
-// Opção 3 - Utilizando useStae
+// Opção 3 - Utilizando useState
 
 // import Images from "./Images";
 // import FirstComponent from "./FirstComponent";
