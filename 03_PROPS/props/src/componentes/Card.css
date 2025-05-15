@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 0 auto;
+}
+
+figure{
+    width: 500px; /* Largura do card */
+    height: 500px; /* Altura do card */
+    background-color: #f0f0f0; /* Cor de fundo do card */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Esconder elementos que transbordam */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: center;
+}
+
+img{
+    width: 100%; /* Largura da imagem 100% do card */
+    height: 90%; /* Altura da imagem */
+    /*object-fit: cover;  Ajusta a imagem para cobrir o espaço */
+}
+
+figcaption{
+    font-size: 1em; /* Tamanho do texto */
+    font-weight: bold;
+    color: #666; /* Cor do texto */
+    width: 100%;
+}
