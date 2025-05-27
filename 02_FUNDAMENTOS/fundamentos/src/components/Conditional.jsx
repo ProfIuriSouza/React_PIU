@@ -1,29 +1,29 @@
 //Renderização condicional
 //Opção 1 - Estrutura tradicional de if e else
 
-import Images from "./Images";
-import FirstComponent from "./FirstComponent";
+// import Images from "./Images";
+// import FirstComponent from "./FirstComponent";
 
-function Conditional(){
-     let content;
-     let isLogged = true;
+// function Conditional(){
+//      let content;
+//      let isLogged = true;
 
 
-     if(isLogged){
-         content = <Images />
-     } else {
-         content = <FirstComponent />
-     }
+//      if(isLogged){
+//          content = <Images />
+//      } else {
+//          content = <FirstComponent />
+//      }
 
-     return(
-         <>
-             {content}
-             <button onClick={() => {content = true}}>Mudar Estado</button>
-         </>
-     )
- }
+//      return(
+//          <>
+//              {content}
+//              <button onClick={() => {isLogged = true}}>Mudar Estado</button>
+//          </>
+//      )
+//  }
 
- export default Conditional
+//  export default Conditional
 
 // Opção 2 - Estrutura condicional reduzida
 
@@ -47,28 +47,28 @@ function Conditional(){
 
 // Opção 3 - Utilizando useState
 
-// import Images from "./Images";
-// import FirstComponent from "./FirstComponent";
+import Images from "./Images";
+import FirstComponent from "./FirstComponent";
 
-// import { useState } from "react";
+import { useState } from "react";
 
-// function Conditional(){
-//     let content;
-//     let [isLogged, setIsLogged] = useState(false)
+function Conditional(){
+    let content;
+    let [isLogged, setIsLogged] = useState(false)
 
 
-//     if(isLogged){
-//         content = <Images />
-//     } else {
-//         content = <FirstComponent />
-//     }
+    if(isLogged){
+        content = <Images />
+    } else {
+        content = <FirstComponent />
+    }
 
-//     return(
-//         <>
-//             {content}
-//             <button onClick={() => setIsLogged(!isLogged)}>Mudar Estado</button>
-//         </>
-//     )
-// }
+    return(
+        <>
+            {content}
+            <button onClick={() => setIsLogged(!isLogged)}>Mudar Estado</button>
+        </>
+    )
+}
 
-// export default Conditional
+export default Conditional

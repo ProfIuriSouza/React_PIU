@@ -1,0 +1,27 @@
+.card {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.1s;
+}
+
+figure:hover{
+    transform: scale(1.25);
+}
+
+
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.card figcaption{
+    font-weight: bold;
+}

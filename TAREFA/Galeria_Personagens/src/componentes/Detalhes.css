@@ -1,0 +1,17 @@
+.detalhes{
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.detalhes img{
+    width: 100%;
+}
+
+.detalhes h3{
+    font-size: 36px;
+}
+
+.detalhes p{
+    font-size: 18px;
+}
