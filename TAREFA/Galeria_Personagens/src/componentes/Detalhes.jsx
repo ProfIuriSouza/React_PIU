@@ -1,7 +1,13 @@
 import './Detalhes.css'
 
 export default function Detalhes({ character }) {
+<<<<<<< HEAD
   if (!character) return null;
+=======
+  if (!character) {
+    return null;
+  }
+>>>>>>> 0df69ddedb47506c876f03df45177c73d8fabffe
 
   return (
     <div className='detalhes'>

@@ -8,6 +8,8 @@ import Images from "./components/Images"
 import ChangeBackground from "./components/ChangeBackground"
 import ChangeValue from "./components/ChangeValue"
 import Conditional from "./components/Conditional"
+import Change from "./components/Change"
+import Info1V from "./components/Info1V"
 
 
 function App() {
@@ -21,10 +23,16 @@ function App() {
       <AnonymousFunction />
       <Events />
       <Images/>
-      <ChangeBackground/>
-      <ChangeValue /> */}
+      <ChangeBackground/> */}
+      {/* <ChangeValue /> */}
+      
 
-      <Conditional />
+      {/* <Conditional /> */}
+      {/* <ChangeBackground/> */}
+      {/* <Change /> */}
+      {/* <Info1V/> */}
+      <Conditional/>
+      
     </>
   )
 }

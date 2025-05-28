@@ -1,7 +1,8 @@
 import "./Card.css"
+import screen from '../assets/nature.jpg'
 
 export default function Card(){
-    let screen = "https://cdn.pixabay.com/photo/2017/09/11/14/42/rings-2739188_1280.jpg"
+
 
     return(
         <div>
