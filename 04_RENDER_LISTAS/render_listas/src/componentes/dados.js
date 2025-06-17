@@ -1,4 +1,4 @@
-export const dadoslista = ['Item 1', 'Item 2', 'Item 3' ]
+export const dadoslista = ['Item 1', 'Item 2', 'Item 3', 'Item 4' ]
 
 export const dadoslista2 = ['Configuração', 'Temas', 'Contato', 'Sobre']
 

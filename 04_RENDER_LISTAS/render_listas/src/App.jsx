@@ -14,7 +14,7 @@ function App() {
       <br />
       <RenderProps dados={dadoslista2}/>
       <br />
-      <RenderFilter />
+      {/* <RenderFilter /> */}
 
     </>
   )

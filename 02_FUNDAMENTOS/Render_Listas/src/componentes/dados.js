@@ -1,6 +1,6 @@
-export const nomes = ["João", "Maria", "José", "Joana"];
+export const nomes = ["João", "Maria", "José", "Joana", "andrei"];
 
-export const times = ["Flamengo", "Palmeiras", "Bahia","Santos"];
+export const times = ["Flamengo", "Palmeiras", "Bahia","Santos", "Flamengo", "flamengo"];
 
 export const obj = [
     {id: 0,
@@ -20,3 +20,7 @@ export const obj = [
     idade: 21},
 
 ]
+
+export const titulo = ['Link1','Link2','Link3','Link4', 'Link5']
+
+export const lista = ['Menu1','Menu2','Menu3','Menu4', 'Menu5']
