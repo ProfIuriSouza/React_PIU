@@ -9,7 +9,7 @@ export default function Listas(){
             <ul style={{backgroundColor:"aqua"}}>
                 {carros.map(carro => (
                     <li>
-                        <p>{carro.modelo} {carro.ano}</p>
+                        <p>{carro.modelo} {carro.cor}</p>
                     </li>
                 ))}
             </ul>

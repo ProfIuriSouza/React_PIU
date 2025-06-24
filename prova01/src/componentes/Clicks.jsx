@@ -17,7 +17,7 @@ export default function Clicks(){
                     <p>count is {count}</p>
                 </button>
                 
-                <button style={{margin:"20px", border:"2px solid red", backgroundColor: (count > 10)?"red":"yellow"}} onClick={() => setCount((count) => count - 1)}>
+                <button style={{margin:"20px", border:"2px solid red", backgroundColor: (count < 0)?"red":"yellow"}} onClick={() => setCount((count) => count - 1)}>
                     -
                     <p>count is {count}</p>
                 </button>
