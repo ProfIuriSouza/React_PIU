@@ -2,17 +2,20 @@ import './App.css'
 import ListasMap from './componentes/ListasMap'
 import ListasFilter from './componentes/ListasFilter'
 import ListasObj from './componentes/ListasObj'
+import Tarefas from './componentes/Tarefas'
 
 function App() {
   
   return (
     <>
-     <ListasMap />
+     {/* <ListasMap />
      <br />
      <ListasFilter/>
      <br />
-     <ListasObj/>
+     <ListasObj/> */}
+     <Tarefas/>
     </>
+    
   )
 }
 

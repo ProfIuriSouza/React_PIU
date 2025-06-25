@@ -1,0 +1,13 @@
+form input{
+    padding: 5px;
+    margin: 10px;
+}
+
+ul {
+    margin: 50px;
+}
+
+ul li{
+    list-style: none;
+    border: 2px solid #FFDAB9;
+}
