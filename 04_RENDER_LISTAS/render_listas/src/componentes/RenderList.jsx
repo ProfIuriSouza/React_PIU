@@ -6,7 +6,7 @@ import { dadoslista } from "./dados";
 export default function RenderList(){
 
     return(
-        <div style={{ border: '2px solid red', padding: '20px' }}>
+        <div style={{ border: '2px solid red', padding: '20px', fontSize: '20px' }}>
             <h2>Renderização de Listas 1</h2>
             <p>Uso da função map para estruturar os items da listas acessando os elementos de um array</p>
             <ul>

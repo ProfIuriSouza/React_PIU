@@ -3,6 +3,7 @@
 import { dadoslista3 } from "./dados";
 
 export default function RenderFilter () {
+    
 
     return(
         <div style={{border: '2px solid grey', padding: '20px'}}>

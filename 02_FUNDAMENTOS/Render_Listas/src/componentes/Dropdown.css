@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* o que for aplicado ao objeto filho não será transpassado para o objeto pai */
+
+}
+
+nav{
+    background-color: #131bb0;
+    border-radius: 5px;   
+     
+
+}
+
+nav li{
+    display: inline-block; /*posiciona os itens da lista um do lado do outro */
+    
+}
+
+nav li a{
+    display: inline-block;
+    color: rgb(224, 240, 234);
+    text-decoration: none; /*tira o underline do texto*/
+    padding: 20px;
+    border-radius: 5px;
+    
+
+}
+
+nav li a:hover{
+    background-color: rgb(141, 182, 235);
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: black;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 5px blue;
+    display: none;
+    border-radius: 5px;
+}
