@@ -2,6 +2,7 @@
 import './App.css'
 import FirstForm from './componentes/FirstForm'
 import FormState from './componentes/FormState'
+import FormSelect from './componentes/FormSelect'
 
 function App() {
  
@@ -12,6 +13,8 @@ function App() {
       <FirstForm/>
       <br />
       <FormState/>
+      <br />
+      <FormSelect/>
 
   </div>
   )
