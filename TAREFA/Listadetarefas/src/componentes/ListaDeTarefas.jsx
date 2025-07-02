@@ -13,6 +13,11 @@ export default function ListaDeTarefas(){
 
     }
 
+    const handleClear = () => {
+        setLista([])
+
+    }
+
     return(
 
         <div>
@@ -31,6 +36,8 @@ export default function ListaDeTarefas(){
                 <li>{item}</li>
             )}
             </ul>
+
+            <button style={{border: '1px solid red'}} onClick={handleClear}>Resetar</button>
 
         </div>
 

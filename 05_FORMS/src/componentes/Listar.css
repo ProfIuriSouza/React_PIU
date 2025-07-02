@@ -1,0 +1,47 @@
+ul li{
+    list-style: none;
+}
+
+button{
+    margin: 15px;
+}
+
+form input{
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.concluida span {
+    text-decoration: line-through; /* Tacha o texto */
+    color: #888;                  /* Deixa o texto cinza */
+}
+
+.concluida {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+/* Estilização geral para a lista (opcional) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+li button {
+    margin-left: 15px;
+}

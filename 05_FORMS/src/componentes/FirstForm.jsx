@@ -4,7 +4,7 @@ export default function FirstForm(){
     
     return(
         <div>
-
+                
             {/* formulário simples para inicialização. Detalhe para o htmlFor == for do html. Envolver os inputs em div pode ser uma boa prática */}
             
             <form>
@@ -23,7 +23,7 @@ export default function FirstForm(){
                 <div>
 
                     <label>
-                        <span>Email:</span> 
+                        Email:
                         <input type="text" placeholder='Digite seu email' />
                     </label>
                     

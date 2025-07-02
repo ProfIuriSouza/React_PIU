@@ -19,9 +19,9 @@ export default function FormState(){
 
         //dessa forma. para resetar o formulário acionamos os set dos states com valores vazios
 
-        // setName("");
-        // setIdade("");
-        // setBio("");
+        setName("");
+        setIdade("");
+        setBio("");
 
     }
 
@@ -33,9 +33,9 @@ export default function FormState(){
             {/* Evento onSubmit será disparado quando o formulário for enviado. Aqui, teremos que parar o envio para não
             perder os dados. Utilizaremos o objeto de evento e com o seu atributo prevant.default */}
 
-            <form>
+            {/* <form> */}
 
-            {/* <form onSubmit={handleSubmit}> */}
+            <form onSubmit={handleSubmit}>
 
                 <div>
 
