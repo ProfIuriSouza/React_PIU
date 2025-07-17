@@ -2,6 +2,7 @@ import './App.css'
 import CountClicks from './componentes/CountClicks'
 import EffectAPI from './componentes/EffectAPI'
 import RepoJson from './componentes/RepoJson'
+import EnviarDados from './componentes/EnviarDados'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <>
       {/* <CountClicks/> */}
       {/* <EffectAPI /> */}
-      <RepoJson />
+      {/* <RepoJson /> */}
+      <EnviarDados />
       
     </>
   )
