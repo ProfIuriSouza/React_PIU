@@ -12,8 +12,8 @@ Comandos:
     > Selecionar React >> Javascript
 
 * executar comandos retornadod no terminal:
-    > <code> cd <nome_do_projeto> </code>
-    > <code> npm install </code>
-    > <code> npm run dev </code>
+    > <code> cd <nome_do_projeto> </code> <br>
+    > <code> npm install </code> <br>
+    > <code> npm run dev </code> <br>
 
 **OBSERVAÇÕES:** Para o acompanhamento cronológico dos assuntos, aconselha-se seguir a ordem dos commits.
